@@ -1,19 +1,7 @@
-function add = () =>{
+const add =() =>{
     console.log('heloo');
-    Callback();
 }
-function sub = ()=> {
-    console.log('good morning');
+const seven=(p)=>{
+    p();
 }
-add(,sub);
-
-function add() {
-    console.log(a);
-    let a=8;
-    //var a=9;
-    console.log(a);
-    
-}
-
-add();
-
+seven(add);
